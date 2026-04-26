@@ -1,0 +1,30 @@
+# Core
+fastapi==0.104.1
+uvicorn[standard]==0.24.0.post1
+python-dotenv==1.0.0
+
+# Database
+sqlalchemy==2.0.23
+asyncpg==0.29.0
+alembic==1.12.1
+greenlet==3.0.1
+
+# Auth & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# AI
+openai==1.6.1
+httpx==0.25.2
+
+# Validation
+pydantic==2.5.2
+pydantic-settings==2.1.0
+email-validator==2.1.0
+
+# Rate limiting
+slowapi==0.1.9
+
+# CORS
+starlette==0.27.0

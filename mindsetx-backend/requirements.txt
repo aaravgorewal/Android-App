@@ -17,6 +17,7 @@ python-multipart==0.0.6
 # AI
 openai==1.6.1
 httpx==0.25.2
+tenacity==8.2.3
 
 # Validation
 pydantic==2.5.2
